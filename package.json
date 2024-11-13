@@ -10,8 +10,13 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxt/ui": "npm:@nuxt/ui-edge@latest",
+    "lodash": "^4.17.21",
     "nuxt": "^3.13.0",
     "vue": "latest",
     "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.13"
   }
 }
