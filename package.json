@@ -18,5 +18,23 @@
   },
   "devDependencies": {
     "@types/lodash": "^4.17.13"
+  },
+  "overrides": {
+    "nuxt": {
+      "nitropack": {
+        "@vercel/nft": {
+          "glob": "^10.0.0"
+        }
+      }
+    },
+    "@nuxt/ui": {
+      "@nuxtjs/tailwindcss": {
+        "tailwind-config-viewer": {
+          "replace-in-file": {
+            "glob": "^10.0.0"
+          }
+        }
+      }
+    }
   }
 }
